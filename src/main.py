@@ -72,7 +72,7 @@ class EightPuzzleApp:
                     bgcolor="#FFFFFF",  # White background
                     border_radius=8,
                     content=ft.Image(
-                        src="assets/ifto.png",
+                        src="ifto.png",
                         width=140,
                         height=70,
                         fit=ft.ImageFit.CONTAIN,
@@ -225,4 +225,4 @@ def main(page: ft.Page):
     EightPuzzleApp(page)
 
 if __name__ == "__main__":
-    ft.app(target=main, assets_dir="./assets")
+    ft.app(target=main, assets_dir="assets")
