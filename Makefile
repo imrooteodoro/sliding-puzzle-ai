@@ -7,4 +7,4 @@ install-dependencies:
 	@pip install -r requirements.txt
 
 run:
-	@flet run src/main.py
+	@python3 src/main.py
